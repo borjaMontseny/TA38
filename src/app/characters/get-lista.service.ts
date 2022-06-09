@@ -7,7 +7,7 @@ export class GetListaService {
 
   constructor() { }
 
-  retornar(){
+  retornar() {
     return [
       {
         id: 1,
