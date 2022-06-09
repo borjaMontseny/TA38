@@ -1,27 +1,94 @@
-# TA37
+# TA38
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+![image](https://user-images.githubusercontent.com/68342939/172796334-0249feb0-afce-475e-8636-ac27e2a2b9f3.png)
 
-## Development server
+## service.ts
+```js script
+import { Injectable } from '@angular/core';
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+@Injectable({
+  providedIn: 'root'
+})
+export class GetListaService {
 
-## Code scaffolding
+  constructor() { }
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  retornar(){
+    return [
+      {
+        id: 1,
+        name: "Rick Sanchez",
+        status: "Alive",
+        species: "Human",
+        gender: "Male",
+        origin: "Earth",
+        location: "Earth",
+        image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+      },
+      {
+        id: 2,
+        name: "Morty Smith",
+        status: "Alive",
+        species: "Human",
+        gender: "Male",
+        origin: "Citadel of Ricks",
+        location: "Earth",
+        image: "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+      },
+      {
+        id: 3,
+        name: "Summer Smith",
+        status: "Alive",
+        species: "Human",
+        gender: "Female",
+        origin: "Earth (Replacement Dimension)",
+        image: "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+      },
+      {
+        id: 4,
+        name: "Beth Smith",
+        status: "Dead",
+        species: "Human",
+        gender: "Female",
+        origin: "Earth (Replacement Dimension)",
+        location: "Earth",
+        image: "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+      },
+      {
+        id: 5,
+        name: "Jerry Smith",
+        status: "Dead",
+        species: "Human",
+        gender: "Male",
+        origin: "Earth (Replacement Dimension)",
+        location: "Earth",
+        image: "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+      }
+    ]
+  }
+}
+```
+## characters.component.ts
+```js script
+import { HttpClient } from '@angular/common/http';
+import { Component, OnInit} from '@angular/core';
+import { GetListaService } from './get-lista.service';
 
-## Build
+@Component({
+  selector: 'app-characters',
+  templateUrl: './characters.component.html',
+  styleUrls: ['./characters.component.css']
+})
+export class CharactersComponent implements OnInit {
+  title = 'characters'
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  characters: any = null;
 
-## Running unit tests
+  constructor(private getListaService: GetListaService) { }
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  ngOnInit(): void {
+    this.characters = this.getListaService.retornar();
+  }
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+}
+```
