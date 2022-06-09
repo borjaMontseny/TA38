@@ -1,4 +1,4 @@
-# TA38 Parte 1
+# TA38
 
 ![image](https://user-images.githubusercontent.com/68342939/172796334-0249feb0-afce-475e-8636-ac27e2a2b9f3.png)
 
