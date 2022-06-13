@@ -6,14 +6,20 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { CharactersComponent } from './characters/characters.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { AddCharacterComponent } from './components/add-character/add-character.component';
+import { CharacterDetailsComponent } from './components/character-details/character-details.component';
+import { CharacterListComponent } from './components/character-list/character-list.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    CharactersComponent
+    CharactersComponent,
+    AddCharacterComponent,
+    CharacterDetailsComponent,
+    CharacterListComponent
   ],
   imports: [
     BrowserModule,

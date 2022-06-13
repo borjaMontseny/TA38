@@ -102,5 +102,7 @@
       }
     }
   },
-  "defaultProject": "TA37"
+  "cli": {
+    "analytics": false
+  }
 }
