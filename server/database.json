@@ -1,304 +1,43 @@
 {
-  "books": [
+  "characters": [
     {
       "id": 1,
-      "title": "libero necessitatibus et",
-      "description": "Ea eos est quos. Qui enim earum eligendi voluptatibus occaecati. Doloremque omnis error totam amet dolores aperiam officia. Architecto consectetur dignissimos accusantium.",
-      "published": true
+      "name": "Rick Sanchez",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "origin": "Earth",
+      "location": "Earth",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
     },
     {
-      "id": 1,
-      "title": "ad enim sit",
-      "description": "Inventore non magnam sit molestiae tenetur sed non. Provident nulla recusandae. Nulla doloribus vero exercitationem aliquid reiciendis optio ex cum.",
-      "published": true
+      "id": 2,
+      "name": "Morty Smith",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "origin": "Citadel of Ricks",
+      "location": "Earth",
+      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
     },
     {
-      "id": 1,
-      "title": "et tempora distinctio",
-      "description": "Ullam quibusdam fugit omnis quia explicabo minima dolor. Iure est perspiciatis commodi et occaecati aut pariatur labore vero. Qui consequatur dolores saepe dicta qui earum quo ipsum labore.",
-      "published": true
+      "id": 3,
+      "name": "Summer Smith",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Female",
+      "origin": "Earth (Replacement Dimension)",
+      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
     },
     {
-      "id": 1,
-      "title": "veritatis quidem minima",
-      "description": "Animi ut alias et. Ut quam ipsam minus iste saepe aliquam sed ullam fugiat. Laboriosam voluptates id accusantium error doloribus. Velit facilis ut veniam iste quo laudantium autem sed. Eveniet ut deleniti unde voluptas quisquam. Sapiente hic facilis dolores dolorem id provident sunt autem.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "eligendi eum omnis",
-      "description": "Officiis sunt aliquam et sit soluta dolore ad dolor sunt. Consequatur sunt aliquam. Rerum dignissimos optio.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "eius nesciunt assumenda",
-      "description": "Tempora tempora quaerat tenetur voluptatum esse. Quibusdam voluptates voluptatem architecto aspernatur. Deleniti a facere. Voluptas praesentium modi corporis ut sapiente aliquid odit. Vel sed recusandae tempore sunt rerum laudantium quod. Et aliquid maiores voluptate rerum et.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "laborum ducimus itaque",
-      "description": "Sit quis qui non quam. Voluptas exercitationem et neque rerum optio est consequuntur. Ratione et non sint totam dolorem eligendi et alias quisquam.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "et ut ab",
-      "description": "Non qui eos et sed et illo et. Vel nihil quidem enim.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "repellat reiciendis maiores",
-      "description": "Error quos odio fugit quod inventore. Provident quia dolores dolores repellat. Est porro ullam vel veritatis occaecati earum. Repellendus totam voluptate nemo temporibus unde. Dolorem quas placeat iure. Qui repudiandae similique voluptatem quis autem doloribus debitis aperiam.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "reprehenderit fugiat mollitia",
-      "description": "Molestiae non enim voluptas. Et ea nulla fugiat maxime nam architecto.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "non voluptas magni",
-      "description": "Exercitationem nulla dolorum non consequatur. Id quidem architecto placeat illo consequatur ex nemo sunt. Earum impedit atque dolores error laborum omnis.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "animi nam voluptas",
-      "description": "Corporis reiciendis quia reiciendis vitae eum. Et porro vitae et animi sed consequatur. Ut cupiditate commodi nobis quia quos. Qui cupiditate sed.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "sed possimus qui",
-      "description": "Optio sequi iure doloremque modi quos nihil. Facilis error a quos ipsa recusandae qui illum officia omnis. In eos optio dolorem. Fugit qui iure sint rerum autem voluptas vel consequatur voluptas. Incidunt et est officia eveniet.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "et excepturi nihil",
-      "description": "Quia fugiat nisi ad rerum possimus. Cum qui natus iusto. Voluptate totam aut voluptates. Modi voluptatem velit. Sit esse iusto possimus omnis dolore eligendi. Dignissimos aut voluptatum est.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "rerum sed beatae",
-      "description": "Maiores quia et necessitatibus quae. Quia repellendus necessitatibus et nobis molestias et. Sit deleniti labore et et porro porro excepturi. Facere ipsum error molestiae quasi.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "unde totam exercitationem",
-      "description": "In laudantium corrupti rerum eum vero dolor aut. Aut fuga aut adipisci architecto ut veritatis.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "consequuntur voluptatibus aspernatur",
-      "description": "Doloribus atque dolorem voluptates totam omnis natus nemo expedita. Quia quis id. Voluptatem animi aut. Recusandae nihil neque inventore quasi eum dicta sunt amet. A illo sunt consectetur voluptatem hic similique maiores asperiores quibusdam.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "et doloribus consequatur",
-      "description": "Veniam quia esse atque excepturi fugiat similique nesciunt earum eius. Labore non consequuntur quisquam quo perferendis sed explicabo nihil. Voluptas doloribus itaque voluptate et mollitia aut neque optio placeat. Est esse aut.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "consequatur ea vitae",
-      "description": "Consequatur soluta qui omnis et enim architecto. Atque omnis consequuntur consectetur voluptatum vitae reiciendis voluptatem nesciunt.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "maiores ullam molestiae",
-      "description": "Laboriosam impedit natus omnis autem dolore blanditiis. Deserunt assumenda qui sed. Dignissimos consectetur sit quo.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "dolorem explicabo totam",
-      "description": "Aut illo in cupiditate voluptatem atque id vero ut. In eius maiores accusamus nesciunt eaque quia.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "accusamus quis asperiores",
-      "description": "Repellendus aut est dolorem dolores mollitia. Fugit dicta maiores repellendus qui dolor nam corporis a in.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "veritatis eum maxime",
-      "description": "Laboriosam itaque repellendus sed velit quod sequi sed libero. Quia voluptatem molestias et ipsum et.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "iste est aut",
-      "description": "Similique enim quia ut omnis qui quia delectus non id. Minus autem neque. Ex dignissimos sit quis dolorem voluptate occaecati. Voluptas odio repellat sit qui maxime. Minima ut nulla aliquid aut quis. Quos eaque rerum a quidem at dolorem natus et.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "omnis officiis aspernatur",
-      "description": "Maxime est maxime autem autem et. Sunt quos laudantium maxime voluptatem vitae iure quia dolorem. Ipsum vel iste sit totam magni dolor est illo quisquam. Adipisci dolor repellat. Ut nam qui. Iusto et nemo hic voluptatem nihil minima.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "autem sapiente minus",
-      "description": "Aut voluptatem ut dicta rerum laudantium animi modi et nisi. Placeat molestias provident voluptatem debitis vitae pariatur saepe pariatur. Omnis omnis saepe consectetur omnis ratione omnis. Quae autem omnis consectetur ad placeat est blanditiis. Nobis veritatis adipisci ipsam tempore et. Consectetur nobis sunt non minus dolor temporibus.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "atque in alias",
-      "description": "Est iste reiciendis asperiores dicta optio quisquam aut itaque et. Dolorem voluptas officiis delectus dolores explicabo. Placeat ipsa et ut ipsum delectus excepturi aut vel debitis. Dolores at ullam.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "reiciendis porro dolor",
-      "description": "Ex possimus quia accusamus quia dolorem odit quod. Aut id eius numquam ipsam non repellendus. Atque accusamus facilis doloribus corporis. Earum eos necessitatibus sit architecto non. Totam error qui. Aliquid omnis dolor atque non et autem.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "qui cumque architecto",
-      "description": "Non totam vero nisi. Facere corporis sit rerum ipsam soluta commodi quisquam in. Ab unde soluta ea sed reprehenderit quas. Architecto mollitia quo ut velit numquam voluptas nihil ipsam.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "voluptas dolores debitis",
-      "description": "Est consequatur molestiae et eum ipsum tempore. Qui sed illo officia molestias quibusdam reprehenderit architecto rerum. Error alias rerum.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "molestias aliquam ab",
-      "description": "Fugit pariatur quibusdam et veniam quod. Ipsa suscipit qui fugiat repellendus soluta quia magni quia.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "provident nostrum voluptatem",
-      "description": "Id saepe possimus vel consequatur quibusdam dignissimos atque dolor. Consequatur ullam cum saepe consequatur cumque natus voluptatum aspernatur quae.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "voluptates nam rerum",
-      "description": "Praesentium repudiandae a repudiandae voluptatem. Id provident error necessitatibus quod deleniti optio.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "modi voluptates ipsum",
-      "description": "Commodi repellendus necessitatibus nemo sit voluptate. Ea assumenda nulla et rem neque aut consequatur nulla.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "rem illum dolorem",
-      "description": "Veniam recusandae omnis quos vel. Ut non repellat tempore. Eligendi sequi aspernatur numquam dolorem alias eos sint.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "voluptate et totam",
-      "description": "Est eius et consequuntur saepe facilis delectus dolores voluptas. Quia neque nisi.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "aut non asperiores",
-      "description": "Tempora qui optio nulla veniam dolore veritatis. Est vel qui autem vel aperiam vel et quis est. Est totam expedita nemo. Temporibus quisquam et omnis unde repellendus quo.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "aut necessitatibus est",
-      "description": "Sunt officia in recusandae eveniet fuga assumenda temporibus. Dignissimos impedit dolorum esse. Voluptatum enim molestias suscipit ipsum et cum nisi sit ipsam.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "fugiat ea deleniti",
-      "description": "Libero enim qui placeat harum. Dolore ducimus asperiores necessitatibus aliquam veniam dolor. Est est corporis. Veniam aut magnam. Blanditiis sit rerum voluptates. Eveniet similique recusandae accusantium dolorem id porro.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "incidunt aut ut",
-      "description": "Consequatur facilis quod recusandae. Laborum totam odio consequatur ipsa iure optio in. Ad velit dolorem exercitationem praesentium ducimus deserunt veritatis. Modi ut maxime. Excepturi temporibus ut magnam quo illo ducimus velit veniam.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "enim commodi sed",
-      "description": "Voluptate qui nulla id distinctio vitae sint. Ipsam soluta nam voluptatem. Aut recusandae perspiciatis vel ex aut perspiciatis aut. Consequatur qui illo assumenda commodi odio qui doloremque. Quae incidunt aperiam quia optio. Et error alias cum dolore dolorem repellat non eum.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "veritatis ut doloremque",
-      "description": "Provident enim consectetur ut nesciunt veritatis aliquam excepturi qui. Id consequatur ut aut distinctio deleniti. Blanditiis nihil illum. Eveniet id perspiciatis minus dolorem commodi facilis debitis saepe molestias. Dolorem quisquam quaerat a aperiam consequatur non neque.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "nostrum nihil doloremque",
-      "description": "Sed veniam ducimus labore voluptates autem nobis recusandae. Omnis ex dicta rerum dolores quam. Eum ut quibusdam quasi omnis et veritatis. Nostrum nemo eaque illo quisquam aperiam sequi rerum itaque accusamus. Molestiae qui ullam. Sapiente doloribus voluptas nobis qui.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "aliquid odio expedita",
-      "description": "Molestiae illum aut accusantium reiciendis dolores ipsa possimus repellendus. Voluptas ea in et harum consequatur. Est ad ut aliquid iure sit.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "dolore non ducimus",
-      "description": "Officia voluptate minima. Mollitia quos perspiciatis reiciendis ut quam omnis amet provident. Saepe deleniti vitae fuga blanditiis delectus quam dolor dignissimos suscipit. Dolorem tenetur molestias illum velit beatae aut odit.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "nostrum dolorum iusto",
-      "description": "Earum est molestiae rerum omnis sit repellendus iusto nesciunt facere. Totam consequatur cumque qui quo nobis hic tenetur.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "cumque aliquid labore",
-      "description": "Voluptate odit fugiat. Rem voluptatem aperiam esse nesciunt placeat. Et fugiat aliquam maxime consequatur distinctio. Laudantium libero et. Assumenda architecto accusantium consequatur laborum qui culpa repellendus qui. Doloremque autem corrupti facilis est maiores.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "est enim nobis",
-      "description": "Rerum at est adipisci illo eos et animi error magni. Rerum ut impedit et recusandae dolor vero ut minus laborum. Magni repellat sequi maxime quos dolor nostrum ut. Architecto accusamus aperiam sint inventore ducimus dolores veniam est. Vel ipsum et atque numquam rem porro sed.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "quidem officia architecto",
-      "description": "Qui voluptas sequi earum. Ea beatae asperiores ut quas non quo vel. Ipsa dolorem sunt consequuntur ex iste cupiditate tempora fugit. Deleniti et qui voluptatem aspernatur. Quod rerum exercitationem et excepturi voluptatem et.",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "pariatur numquam qui",
-      "description": "Aliquid est velit vel commodi eum. Eius qui nesciunt et accusamus ducimus voluptatem numquam corrupti. Est ut eius vel sit sapiente. Optio maxime et quia natus expedita.",
-      "published": true
+      "name": "Borja",
+      "status": "Cansado",
+      "species": "Humanoide",
+      "gender": "Autobot",
+      "origin": "Earth",
+      "location": "Reus",
+      "image": "https://www.geekmi.news/__export/1621562925698/sites/debate/img/2021/05/20/zorogod1.jpg_976912859.jpg",
+      "id": 4
     }
   ]
 }

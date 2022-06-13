@@ -1,1 +1,47 @@
-<p>add-character works!</p>
+<div style="width: 500px; margin: auto;">
+  <div class="submit-form">
+    <div *ngIf="!isCharacterAdded">
+      <div class="form-group">
+        <label for="title">Name</label>
+        <input type="text" class="form-control" id="name" required [(ngModel)]="character.name" name="name" />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Status</label>
+        <input type="text" class="form-control" id="title" required [(ngModel)]="character.status" name="status" />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Species</label>
+        <input type="text" class="form-control" id="species" required [(ngModel)]="character.species" name="species" />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Gender</label>
+        <input type="text" class="form-control" id="gender" required [(ngModel)]="character.gender" name="gender" />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Origin</label>
+        <input type="text" class="form-control" id="origin" required [(ngModel)]="character.origin" origin="origin" />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Location</label>
+        <input type="text" class="form-control" id="location" required [(ngModel)]="character.location" location="location" />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Image</label>
+        <input type="text" class="form-control" id="image" required [(ngModel)]="character.image" image="image" />
+      </div>
+
+      <button (click)="addCharacter()" class="btn btn-success">Create</button>
+    </div>
+
+    <div *ngIf="isCharacterAdded">
+      <h3>New character added!</h3>
+      <button class="btn btn-success" (click)="newCharacter()"> + Add More</button>
+    </div>
+  </div>
+</div>

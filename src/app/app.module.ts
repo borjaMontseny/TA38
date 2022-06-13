@@ -9,7 +9,9 @@ import { CharactersComponent } from './characters/characters.component';
 import {HttpClientModule} from '@angular/common/http';
 import { AddCharacterComponent } from './components/add-character/add-character.component';
 import { CharacterDetailsComponent } from './components/character-details/character-details.component';
-import { CharacterListComponent } from './components/character-list/character-list.component'
+import { CharacterListComponent } from './components/character-list/character-list.component';
+import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { CharacterListComponent } from './components/character-list/character-li
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
