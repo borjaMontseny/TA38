@@ -46,7 +46,7 @@ export class CharacterListComponent implements OnInit {
   }
 
   // Search items
-  searchByTitle(): void {
+  searchByName(): void {
     this.characterService.filterByName(this.searchName)
       .subscribe(
         books => {

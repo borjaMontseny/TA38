@@ -21,22 +21,13 @@
       "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
     },
     {
-      "id": 3,
-      "name": "Summer Smith",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Female",
-      "origin": "Earth (Replacement Dimension)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
-    },
-    {
-      "name": "Borja",
-      "status": "Cansado",
-      "species": "Humanoide",
-      "gender": "Autobot",
-      "origin": "Earth",
-      "location": "Reus",
-      "image": "https://www.geekmi.news/__export/1621562925698/sites/debate/img/2021/05/20/zorogod1.jpg_976912859.jpg",
+      "name": "Jairo Maslomenos",
+      "status": "Divorciado",
+      "species": "Humano",
+      "gender": "Hombre",
+      "origin": "Tierra",
+      "location": "Albacete",
+      "image": "happyface.jpg",
       "id": 4
     }
   ]
