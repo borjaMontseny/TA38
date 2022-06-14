@@ -6,11 +6,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { CharactersComponent } from './characters/characters.component';
-import {HttpClientModule} from '@angular/common/http';
 import { AddCharacterComponent } from './components/add-character/add-character.component';
 import { CharacterDetailsComponent } from './components/character-details/character-details.component';
 import { CharacterListComponent } from './components/character-list/character-list.component';
-import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { ProfileComponent } from './profile/profile.component';
+import { BoardAdminComponent } from './board-admin/board-admin.component';
+import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
+import { BoardUserComponent } from './board-user/board-user.component';
+
+import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+
 
 
 @NgModule({
@@ -21,7 +29,13 @@ import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
     CharactersComponent,
     AddCharacterComponent,
     CharacterDetailsComponent,
-    CharacterListComponent
+    CharacterListComponent,
+    LoginComponent,
+    RegisterComponent,
+    ProfileComponent,
+    BoardAdminComponent,
+    BoardModeratorComponent,
+    BoardUserComponent
   ],
   imports: [
     BrowserModule,
